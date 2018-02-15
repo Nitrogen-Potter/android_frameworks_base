@@ -4423,6 +4423,7 @@ public final class Settings {
          *
          * @hide
          */
+
         public static final String FINGERPRINT_SUCCESS_VIB = "fingerprint_success_vib";
         /** @hide */
         private static final Validator FINGERPRINT_SUCCESS_VIB_VALIDATOR =
@@ -4813,6 +4814,13 @@ public final class Settings {
 
         /** @hide */
         private static final Validator USE_OLD_MOBILETYPE_VALIDATOR = BOOLEAN_VALIDATOR;
+
+        /**
+         * Select various accents to go along with system themes
+         *
+         * @hide
+         */
+        public static final String ACCENT_PICKER = "accent_picker";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
